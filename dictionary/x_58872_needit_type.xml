@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="type" max_length="40" name="x_58872_needit_type" sizeclass="2" type="collection">
+        <element default="true" label="active" max_length="40" name="active" type="boolean"/>
+        <element display="true" label="description" max_length="255" name="description" type="string_full_utf8"/>
+        <element label="type" max_length="4000" name="type" reference="x_58872_needit_type" type="glide_list"/>
+    </element>
+</database>
